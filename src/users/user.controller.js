@@ -5,10 +5,10 @@ const userService = require('./user.service');
 router.post('/authenticate', authenticate);
 router.post('/register', register);
 router.get('/', getAll);
-router.get('/current', getCurrent);
+//router.get('/current', getCurrent);
 router.get('/:id', getById);
-router.put('/:id', update);
-router.delete('/:id', _delete);
+//router.put('/:id', update);
+//router.delete('/:id', _delete);
 
 function authenticate(req, res, next) {
     userService.authenticate(req.body)
@@ -33,3 +33,5 @@ function getById(req, res, next) {
         .then(user => user ? res.json(user) : res.sendStatus(404))
         .catch(err => next(err));
 }
+
+module.exports = router;

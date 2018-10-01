@@ -2,14 +2,14 @@
   "name": "flux-backend",
   "version": "1.0.0",
   "description": "DevOps dashboard (backend)",
-  "main": "server.js",
+  "main": "src/server.js",
   "directories": {
     "doc": "docs",
     "lib": "lib",
     "test": "tests"
   },
   "scripts": {
-    "run": "nodemon src/server.js",
+    "start": "nodemon src/server.js",
     "test": "echo \"Error: no tests specified\" && exit 1"
   },
   "repository": {
