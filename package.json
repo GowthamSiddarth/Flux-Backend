@@ -1,0 +1,30 @@
+{
+  "name": "flux-backend",
+  "version": "1.0.0",
+  "description": "DevOps dashboard (backend)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GowthamSiddarth/flux-backend.git"
+  },
+  "keywords": [
+    "flux",
+    "devops",
+    "node",
+    "dashboard"
+  ],
+  "author": "Gowtham Behara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GowthamSiddarth/flux-backend/issues"
+  },
+  "homepage": "https://github.com/GowthamSiddarth/flux-backend#readme"
+}
