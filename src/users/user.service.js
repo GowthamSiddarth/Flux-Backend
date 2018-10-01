@@ -39,3 +39,9 @@ async function createUser(userParam) {
     await user.save();
 }
 
+module.exports = {
+    authenticate,
+    getAll,
+    getById,
+    createUser
+};
