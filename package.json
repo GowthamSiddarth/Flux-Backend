@@ -2,13 +2,14 @@
   "name": "flux-backend",
   "version": "1.0.0",
   "description": "DevOps dashboard (backend)",
-  "main": "lib/index.js",
+  "main": "server.js",
   "directories": {
     "doc": "docs",
     "lib": "lib",
     "test": "tests"
   },
   "scripts": {
+    "run": "nodemon src/server.js",
     "test": "echo \"Error: no tests specified\" && exit 1"
   },
   "repository": {
@@ -30,10 +31,12 @@
   "devDependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "express-jwt": "^5.3.1",
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.3.0",
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.18.4",
+    "rootpath": "^0.1.2"
   }
 }
