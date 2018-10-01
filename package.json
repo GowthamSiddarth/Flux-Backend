@@ -2,7 +2,7 @@
   "name": "flux-backend",
   "version": "1.0.0",
   "description": "DevOps dashboard (backend)",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "doc": "docs",
     "lib": "lib",
@@ -30,6 +30,7 @@
   "devDependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongoose": "^5.3.0"
+    "mongoose": "^5.3.0",
+    "nodemon": "^1.18.4"
   }
 }
